@@ -116,18 +116,11 @@ h4 {
   
   .overlay-content {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    top: 40%;
+    margin-left: 34px;
     color: white;
-    z-index: 2;
   }
-  
-  h1 {
-    margin: 0;
-  }
-  
+
   button {
     padding: 10px 20px;
     background-color: #3498db;
@@ -141,6 +134,9 @@ h4 {
     top: 0;
     left: 0;
   }
+.Watch-section-title{
+    margin-bottom: 15px;
+}
 
   /*----------------======Footer Area =============*/
   footer {

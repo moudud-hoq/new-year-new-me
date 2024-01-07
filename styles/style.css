@@ -194,7 +194,6 @@ h4 {
     width: 100%;
   }
 
-
   .left-footer-description-and-social-icon {
     margin-left: 130px;
     margin-top: 130px;
@@ -224,7 +223,9 @@ h4 {
 }
 
   .right-footer{
-    margin-right: 130px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 280px;
     margin-top: 130px;
     font-weight: 400;
 
@@ -232,11 +233,32 @@ h4 {
   }
 
 .social-icon{
-    margin: 0 auto;
-    margin-left: 0;
     padding-right: 10px;
 
     margin-bottom: 130px;
+}
+
+.subscribe{
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#mail-fill{
+  padding: 15px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.right-footer-button{
+  max-width: 114px;
+  background-color: #fff;
+  color: #F15B22;
+  font-weight: 700;
+  border-radius: 5px;
 }
 
   
